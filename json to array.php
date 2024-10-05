@@ -9,8 +9,6 @@ $arraydata = json_decode($jsonData, true);
 echo "Nama: " . $arraydata["nama"] . "<br>";
 echo "Usia: " . $arraydata["usia"] . "<br>";
 echo "Pekerjaan: " . $arraydata["pekerjaan"] . "<br>";
-
-// Menggabungkan elemen array 'hobi' menjadi string dan menampilkannya
 echo "Hobi: " . implode(", ", $arraydata["hobi"]) . "<br>";
 
 ?>
